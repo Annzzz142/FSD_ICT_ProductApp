@@ -1,0 +1,27 @@
+<div class="card">
+    <form (ngSubmit) = "Login()">
+        <div class="card-header">
+            {{title}}
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td><label>Username</label></td>
+                            <td><input type="text" name="log_user"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Password</label></td>
+                            <td><input type="text" name="log_pwd"></td>
+                        </tr>
+                        <tr>
+                            <td><a href="">Signup</a></td>
+                            <td><input type="submit" value="Login"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </form>
+</div>

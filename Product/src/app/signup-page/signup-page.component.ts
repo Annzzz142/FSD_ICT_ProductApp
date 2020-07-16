@@ -1,0 +1,15 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-signup-page',
+  templateUrl: './signup-page.component.html',
+  styleUrls: ['./signup-page.component.css']
+})
+export class SignupPageComponent implements OnInit {
+  title:String = "Sign Up";
+  constructor(private ) { }
+
+  ngOnInit(): void {
+  }
+
+}
